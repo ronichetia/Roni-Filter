@@ -75,7 +75,7 @@ YEARS = [f'{i}' for i in range(2025, 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 
 # Pictures And Reaction
-START_IMG = (environ.get('START_IMG', 'https://ibb.co/rKdJBC8x')).split()
+START_IMG = (environ.get('START_IMG', 'https://ibb.co/YTVvxV9w')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://ibb.co/TxV75CFJ')).split()
