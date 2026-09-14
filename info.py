@@ -69,10 +69,10 @@ TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 
 # Language & Quality & Season & Year
-LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "bengali", "marathi", "gujarati", "punjabi", "marathi"]
-QUALITIES = ["HdRip","web-dl" ,"bluray", "hdr", "fhd" , "240p", "360p", "480p", "540p", "720p", "960p", "1080p", "1440p", "2K", "2160p", "4k", "5K", "8K"]
-YEARS = [f'{i}' for i in range(2025, 2002,-1 )]
-SEASONS = [f'season {i}'for i in range (1 , 23)]
+LANGUAGES = ["original"]
+QUALITIES = ["original"]
+YEARS = [f'{i}' for i in range(all)]
+SEASONS = [f'season {i}'for i in range (all)]
 
 # Pictures And Reaction
 START_IMG = (environ.get('START_IMG', 'https://ibb.co/rKdJBC8x')).split()
@@ -107,9 +107,9 @@ MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
-    ON_HEROKU = True
+    ON_HEROKU = False
 else:
-    ON_HEROKU = True
+    ON_HEROKU = False
 URL = environ.get("FQDN", "cool-billye-yok-5cdb3f81.koyeb.app/")
 
 # Commands
