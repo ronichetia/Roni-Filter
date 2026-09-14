@@ -92,7 +92,7 @@ async def start(client:Client, message):
                            InlineKeyboardButton('⇋ JOIN US ⇋', url=f'https://t.me/kdrama_talkies')		
                         ],[
                             InlineKeyboardButton('• ᴅɪꜱᴀʙʟᴇ ᴀᴅꜱ •', callback_data='jisshupremium'),
-                            InlineKeyboardButton('• ꜱᴘᴇᴄɪᴀʟ •', callback_data="toptrending")
+                            InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url=f'https://t.me/kdramatalkiesupdates)
                         ],[
                             InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data='help'),
                             InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
@@ -113,7 +113,7 @@ async def start(client:Client, message):
                 InlineKeyboardButton('⇋ JOIN US ⇋', url=f'https://t.me/kdrama_talkies')		
             ],[
                 InlineKeyboardButton('• ᴅɪꜱᴀʙʟᴇ ᴀᴅꜱ •', callback_data='jisshupremium'),
-                InlineKeyboardButton('• ꜱᴘᴇᴄɪᴀʟ •', callback_data="toptrending")
+                InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url=f'https://t.me/kdramatalkiesupdates')
             ],[                
                 InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data='help'),
                 InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
