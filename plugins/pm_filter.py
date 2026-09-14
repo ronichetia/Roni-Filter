@@ -799,15 +799,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
   
     elif query.data == "start":
         buttons = [[		
-                InlineKeyboardButton('⇋ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ⇋', url=f'http://telegram.dog/{temp.U_NAME}?startgroup=start')		
+                InlineKeyboardButton('⇋ JOIN US ⇋', url=f'https://t.me/kdrama_talkies')		
 		],[
 		InlineKeyboardButton('• ᴅɪꜱᴀʙʟᴇ ᴀᴅꜱ •', callback_data='jisshupremium'),
-                InlineKeyboardButton('• ꜱᴘᴇᴄɪᴀʟ •', callback_data="special")
+                InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url=f'https://t.me/kdramatalkiesupdates)
                 ],[
                 InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data='help'),
                 InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
 		],[
-                InlineKeyboardButton('• ᴇᴀʀɴ ᴜɴʟɪᴍɪᴛᴇᴅ ᴍᴏɴᴇʏ ᴡɪᴛʜ ʙᴏᴛ •', callback_data='earn')
+                InlineKeyboardButton('• ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ •', callback_data='earn')
 	        ]] 
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_media(
@@ -856,7 +856,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "earn":
         buttons = [[
-            InlineKeyboardButton('♻️ ᴀʟʟ ɢʀᴏᴜᴘ ꜱᴇᴛᴛɪɴɢꜱ ᴅᴇᴛᴀɪʟꜱ ♻️', callback_data='earn2')
+            InlineKeyboardButton('♻️ ᴇxᴘʟᴏʀᴇ ♻️', callback_data='earn2')
         ],[
             InlineKeyboardButton('⪻ ʙᴀᴄᴋ ᴛᴏ ʜᴏᴍᴇ', callback_data='start')            
         ]]
@@ -971,7 +971,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 [[
 			InlineKeyboardButton('‼️ ᴅɪꜱᴄʟᴀɪᴍᴇʀ ‼️', callback_data='disclaimer')
 		],[
-			InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', callback_data='source'),
+			InlineKeyboardButton('sᴜᴘᴘᴏʀᴛ', callback_data='source'),
                         InlineKeyboardButton('ᴄᴏɴᴛʀɪʙᴜᴛᴏʀs',callback_data='mydevelopers')
 		],[
 			InlineKeyboardButton('⋞ ʜᴏᴍᴇ', callback_data='start')]]
@@ -983,7 +983,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
  
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('ʀᴇᴘᴏ', url='https://github.com/Jisshubot/Jisshu-filter-bot')
+            InlineKeyboardButton('ᴄᴏɴɴᴇᴛ ʜᴇʀᴇ', url='https://t.me/TubiSupportBot')
         ],[
             InlineKeyboardButton('⋞ ʙᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('• ᴄʟᴏsᴇ •', callback_data='close_data')
