@@ -802,7 +802,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 InlineKeyboardButton('⇋ JOIN US ⇋', url=f'https://t.me/kdrama_talkies')		
 		],[
 		InlineKeyboardButton('• ᴅɪꜱᴀʙʟᴇ ᴀᴅꜱ •', callback_data='jisshupremium'),
-                InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url=f'https://t.me/kdramatalkiesupdates)
+                InlineKeyboardButton('• ᴜᴘᴅᴀᴛᴇs •', url=f'https://t.me/kdramatalkiesupdates')
                 ],[
                 InlineKeyboardButton("• ʜᴇʟᴘ •", callback_data='help'),
                 InlineKeyboardButton('• ᴀʙᴏᴜᴛ •', callback_data='about')
