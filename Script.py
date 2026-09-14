@@ -33,13 +33,13 @@ class script(object):
 <blockquote>🌿 ᴍᴀᴅᴇ ʙʏ : <a href='https://t.me/tubi_bots'>Tubi &lt;/&gt;</a></b></blockquote>"""
     
 
-    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Jisshu filter bot
-‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/JISSHU_BOTS'>Jisshu Bots &lt;/&gt;</a>
+    ABOUT_TEXT = """<blockquote><b>‣ ᴍʏ ɴᴀᴍᴇ : Bella
+‣ ᴄʀᴇᴀᴛᴏʀ : <a href='https://t.me/tubi_bots'>Tubi &lt;/&gt;</a>
 ‣ ʟɪʙʀᴀʀʏ : ᴘʏʀᴏɢʀᴀᴍ
 ‣ ʟᴀɴɢᴜᴀɢᴇ : ᴘʏᴛʜᴏɴ
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : ᴍᴏɴɢᴏ ᴅʙ
 ‣ ʜᴏsᴛᴇᴅ ᴏɴ  :  ᴡᴇʙ
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : V-4.1 [sᴛᴀʙʟᴇ]</b></blockquote>"""    
+‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : V-4.1 </b></blockquote>"""    
     
     SUPPORT_GRP_MOVIE_TEXT = """<b>ʜᴇʏ {}
 
