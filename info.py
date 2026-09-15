@@ -101,16 +101,16 @@ LINK_MODE = is_enabled('LINK_MODE', False)
 TMDB_API_KEY = environ.get("TMDB_API_KEY", "")
 
 # Online Streaming And Download 
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or Flase
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or Flase
 
 MULTI_CLIENT = False
 SLEEP_THRESHOLD = int(environ.get('SLEEP_THRESHOLD', '60'))
 PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
 if 'DYNO' in environ:
-    ON_HEROKU = False
+    ON_HEROKU = True
 else:
-    ON_HEROKU = False
-URL = environ.get("FQDN", "cool-billye-yok-5cdb3f81.koyeb.app/")
+    ON_HEROKU = True
+URL = environ.get("FQDN", "https://steep-di-reyanush-ed3a4466.koyeb.app/")
 
 # Commands
 admin_cmds = [
